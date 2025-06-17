@@ -1,0 +1,9 @@
+[run]
+source = src/dhub
+
+[report]
+omit =
+    */__init__.py
+    tests/*
+    src/dhub/backup.py
+    src/dhub/utils/*
